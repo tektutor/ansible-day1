@@ -1,0 +1,11 @@
+[all]
+172.17.0.2 ansible_ssh_host=127.0.0.1 ansible_ssh_port=4500 
+172.17.0.3 ansible_ssh_host=127.0.0.1 ansible_ssh_port=5500
+172.17.0.4 ansible_ssh_host=127.0.0.1 ansible_ssh_port=6500
+
+[dev]
+172.17.0.2 ansible_ssh_host=127.0.0.1 ansible_ssh_port=4500
+172.17.0.4 ansible_ssh_host=127.0.0.1 ansible_ssh_port=6500
+
+[qa]
+172.17.0.3 ansible_ssh_host=127.0.0.1 ansible_ssh_port=5500

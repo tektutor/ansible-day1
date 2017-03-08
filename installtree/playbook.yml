@@ -1,0 +1,11 @@
+---
+
+- name: "This playbook will install tree utlity"
+  hosts: qa 
+  become: True
+  tasks:
+   - name: "Install tree util on the machine" 
+     apt: name="tree" state="latest" update_cache="yes" 
+
+   - name: "Check if tree command works"
+     command: tree 

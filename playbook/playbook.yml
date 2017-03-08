@@ -1,0 +1,8 @@
+---
+
+- name: "This is our first ansible playbook"
+  hosts: dev 
+  tasks:
+   - name: "Print a greeting message" 
+     debug: msg="Hello Ansible !!!"
+   
